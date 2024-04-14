@@ -1,5 +1,7 @@
 public class Screen{
 
+    
+
     public static void Delete(){
         Console.Clear();
         Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx DELETE FILE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
@@ -19,6 +21,7 @@ public class Screen{
         int maxTypeWidth = files.Max(file => Path.GetExtension(file).Length);
         int maxPathWidth = files.Max(file => Path.GetFullPath(file).Length);
         Console.Clear();
+        Console.ForegroundColor = ConsoleColor.Magenta;
         // Imprime o cabeçalho
         Console.WriteLine(new string('-', maxIndexWidth+ maxNameWidth + maxTypeWidth + maxPathWidth + 22));
         Console.WriteLine("| {0,-" + (maxIndexWidth + 2) + "} | {1,-" + (maxNameWidth + 2) + "} | {2,-" + (maxTypeWidth + 2) + "} | {3,-" + (maxPathWidth + 2) + "} |", "Index","Name", "Type", "Path");
@@ -37,6 +40,7 @@ public class Screen{
 
         // Imprime a linha inferior
         Console.WriteLine(new string('-',maxIndexWidth + maxNameWidth + maxTypeWidth + maxPathWidth + 22));
+        Console.ResetColor();
     }
 
 

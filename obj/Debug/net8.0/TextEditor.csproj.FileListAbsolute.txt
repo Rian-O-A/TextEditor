@@ -12,3 +12,4 @@ C:\Projetos\C#\TextEditor\obj\Debug\net8.0\refint\TextEditor.dll
 C:\Projetos\C#\TextEditor\obj\Debug\net8.0\TextEditor.pdb
 C:\Projetos\C#\TextEditor\obj\Debug\net8.0\TextEditor.genruntimeconfig.cache
 C:\Projetos\C#\TextEditor\obj\Debug\net8.0\ref\TextEditor.dll
+C:\Projetos\C#\TextEditor\obj\Debug\net8.0\TextEditor.sourcelink.json
